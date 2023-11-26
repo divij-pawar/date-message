@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 console.log("Started")
 // Event listener for button click to play the song
 yesBtn.addEventListener('click', () => {
-  question.innerHTML = "Yay, see you on the 27th!";
+  question.innerHTML = "Yay, see you tomorrow!";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 })
 noBtn.addEventListener("mouseover", () => {

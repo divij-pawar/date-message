@@ -6,6 +6,7 @@
 }
 
 body {
+    margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +14,17 @@ body {
     background: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* Two columns layout */
+    gap: 20px; /* Gap between columns */
+    padding: 20px;
+}
 
+.player-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
 .gif {
     height: 100%;
     width: 100%;
@@ -31,6 +42,16 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Additional styling for the rest of your content */
+.wrapper {
+    text-align: center;
 }
 button {
     position: absolute;
